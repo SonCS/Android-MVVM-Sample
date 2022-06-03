@@ -30,7 +30,7 @@ class MainActivity : BaseAppCompatActivity<ActivityMainBinding>() {
             binding.txtCount.text = it.toString()
         }
 
-        binding.text.text = "이거로 바뀌는거니?"
+        binding.text.text = "이거로 바뀌는거니"
 
         binding.btnPlus.setOnClickListener {
             viewModel.plusCount(1)
